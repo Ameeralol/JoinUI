@@ -1,0 +1,6 @@
+---
+name: JoinUI
+version: 0.0.1
+main: Amy\JoinUI\Main
+api: 3.22.0
+...
