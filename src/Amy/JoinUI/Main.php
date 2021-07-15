@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener{
 
 	public function onJoin(PlayerJoinEvent $event){
 
-		$api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
+	$api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
         $form = $api->createSimpleForm(function (Player $player, int $data = null) {
             $result = $data;
             if ($result === null) {
